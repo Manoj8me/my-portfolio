@@ -46,16 +46,17 @@ export default function Hero() {
       </p>
 
       <div className="flex gap-6 mt-6">
-        {/* GitHub */}
+
+        {/* Email */}
         <a
-          href="https://github.com/Manoj8me"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=manoj8me@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full
                      transition-all duration-500 transform hover:-translate-y-2"
-          title="GitHub"
+          title="Send me an Email"
         >
-          <FaGithub className="text-gray-900 dark:text-white w-8 h-8" />
+          <FaEnvelope className="text-red-500 w-8 h-8" />
         </a>
 
         {/* LinkedIn */}
@@ -70,16 +71,16 @@ export default function Hero() {
           <FaLinkedin className="text-blue-600 w-8 h-8" />
         </a>
 
-        {/* Email */}
+        {/* GitHub */}
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=manoj8me@gmail.com"
+          href="https://github.com/Manoj8me"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full
                      transition-all duration-500 transform hover:-translate-y-2"
-          title="Send me an Email"
+          title="GitHub"
         >
-          <FaEnvelope className="text-red-500 w-8 h-8" />
+          <FaGithub className="text-gray-900 dark:text-white w-8 h-8" />
         </a>
       </div>
     </section>

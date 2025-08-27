@@ -36,7 +36,7 @@ export default function Contact() {
       <div className="flex justify-center gap-10 text-4xl">
         {/* Email */}
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=manoj8me@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full transition-all duration-500 transform hover:-translate-y-2"
@@ -47,7 +47,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/manoj-kumar-r-74a0b3241/"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full transition-all duration-500 transform hover:-translate-y-2"
@@ -58,7 +58,7 @@ export default function Contact() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Manoj8me"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full transition-all duration-500 transform hover:-translate-y-2"
