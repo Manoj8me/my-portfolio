@@ -101,8 +101,8 @@ export default function Navbar({ darkMode, setDarkMode }) {
                   ref={(el) => (linkRefs.current[id] = el)}
                   href={`#${id}`}
                   className={`pb-1 transition ${active === id
-                      ? "text-yellow-300"
-                      : "text-white/90 hover:text-yellow-300"
+                    ? "text-yellow-300"
+                    : "text-white/90 hover:text-yellow-300"
                     }`}
                 >
                   {link}
@@ -167,8 +167,8 @@ export default function Navbar({ darkMode, setDarkMode }) {
                     <a
                       href={`#${id}`}
                       className={`inline-block text-black pb-1 border-b-2 transition-all duration-300 ${active === id
-                          ? "border-yellow-400 text-yellow-600"
-                          : "border-transparent hover:border-yellow-400"
+                        ? "border-yellow-400 text-yellow-600"
+                        : "border-transparent hover:border-yellow-400"
                         }`}
                       onClick={() => setOpen(false)}
                     >

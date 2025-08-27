@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaDownload, FaEye, FaFileAlt } from "react-icons/fa";
-
+import FrontendResume from "../assets/Manoj-Frontend-Resume-2025.pdf"
 export default function Resume() {
   return (
     <section id="resume" className="py-20 max-w-6xl mx-auto px-6 text-center">
@@ -25,14 +25,14 @@ export default function Resume() {
 
       <div className="flex justify-center gap-6">
         <a
-          href="/resume.pdf"
+          href={FrontendResume}
           download
           className="flex items-center gap-2 px-6 py-3 bg-indigo-500 text-white rounded-xl shadow-lg hover:bg-indigo-600 transition"
         >
           <FaDownload /> Download
         </a>
         <a
-          href="/resume.pdf"
+          href={FrontendResume}
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 rounded-xl shadow-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition"

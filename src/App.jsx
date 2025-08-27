@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Certificates from "./components/Certificates";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -32,6 +33,7 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+      <Certificates/>
       <Resume />
       <Contact />
       <Footer />

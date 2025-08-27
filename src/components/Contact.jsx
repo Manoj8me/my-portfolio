@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelopeOpenText } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaRegPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Contact() {
@@ -8,23 +8,31 @@ export default function Contact() {
       className="py-20 bg-gradient-to-br from-indigo-50 via-pink-50 to-purple-50 
                  dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-center"
     >
+      {/* Divider */}
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-3xl md:text-4xl font-bold mb-2 flex items-center justify-center gap-3"
       >
-        <div className="flex justify-center ">
-          <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-full"></div>
+        <div className="flex justify-center">
+          <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"></div>
         </div>
       </motion.h2>
-      <h2 className="text-4xl font-bold mb-3 text-indigo-600 dark:text-indigo-400 flex items-center justify-center gap-3">
-        <FaEnvelopeOpenText className="text-indigo-500" /> Contact <span>Me</span>
+
+      {/* Title */}
+      <h2 className="text-4xl font-bold mb-3 flex items-center justify-center gap-3">
+        <FaRegPaperPlane className="text-indigo-500" />
+        <span className="text-inherit">Contact</span>
+        <span className="text-indigo-600 dark:text-indigo-400">Me</span>
       </h2>
+
+      {/* Subtitle */}
       <p className="mb-5 text-lg text-gray-700 dark:text-gray-300">
         I’d love to connect! Reach out to me through any of these platforms:
       </p>
 
+      {/* Social Icons */}
       <div className="flex justify-center gap-10 text-4xl">
         {/* Email */}
         <a
@@ -34,7 +42,7 @@ export default function Contact() {
           className="flex items-center justify-center w-16 h-16 rounded-full transition-all duration-500 transform hover:-translate-y-2"
           title="Send me an Email"
         >
-          <FaEnvelopeOpenText className="text-red-500 w-8 h-8" />
+          <FaEnvelope className="text-red-500 w-8 h-8" />
         </a>
 
         {/* LinkedIn */}

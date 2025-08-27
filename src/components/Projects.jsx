@@ -3,12 +3,8 @@ import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight, FaFolderOpen } from "react-icons/fa";
 
 const projects = [
-  { title: "Portfolio Website", desc: "A personal portfolio built with React, Tailwind, and Framer Motion.", link: "#" },
-  { title: "E-commerce Store", desc: "A full-stack MERN e-commerce application with authentication.", link: "#" },
-  { title: "Chat App", desc: "Real-time chat app built using Socket.io and React.", link: "#" },
-  { title: "Blog Platform", desc: "A blog platform with Markdown support and user authentication.", link: "#" },
-  { title: "Weather App", desc: "Weather forecast app using OpenWeather API and React.", link: "#" },
-  { title: "Task Manager", desc: "Task management app with drag-and-drop features.", link: "#" },
+  { title: "Online BookStore with Authentication", desc: "A Book Store website built with React, Bootstrap, and react toast.", link: "https://json-server-book-store-frontend.onrender.com/" },
+  { title: "Crud Operations with Authentication", desc: "crud operations website build suing ractjs,bootstrap and react toast with authentication.", link: "https://json-crud-authentication-frontend.onrender.com/" },
 ];
 
 export default function Projects() {

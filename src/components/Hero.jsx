@@ -26,7 +26,10 @@ export default function Hero() {
   }, [index]);
 
   return (
-    <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <section
+      id="home"
+      className="pb-8 pt-40 flex flex-col justify-center items-center text-center px-6"
+    >
 
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
@@ -45,7 +48,7 @@ export default function Hero() {
       <div className="flex gap-6 mt-6">
         {/* GitHub */}
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Manoj8me"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full
@@ -57,7 +60,7 @@ export default function Hero() {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/manoj-kumar-r-74a0b3241/"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full
@@ -69,7 +72,7 @@ export default function Hero() {
 
         {/* Email */}
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=manoj8me@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-16 h-16 rounded-full

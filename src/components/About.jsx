@@ -1,13 +1,9 @@
 import { motion } from "framer-motion";
 import { FaUser } from "react-icons/fa";
-
+import ProfilePic from "../assets/profile-pic.jpg"
 export default function About() {
   return (
     <section id="about" className=" max-w-6xl mx-auto px-6">
-
-      {/* ---------------- Heading Borders ---------------- */}
-
-      {/* --- Version 1: Centered Horizontal Line (active by default) --- */}
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +15,6 @@ export default function About() {
         </div>
       </motion.h2>
 
-      {/* ---------------- Heading ---------------- */}
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +27,7 @@ export default function About() {
       {/* ---------------- Content ---------------- */}
       <div className="flex flex-col md:flex-row items-center gap-10">
         <motion.img
-          src="https://via.placeholder.com/250"
+          src={ProfilePic}
           alt="profile"
           className="rounded-2xl shadow-lg w-64 h-64 object-cover"
           initial={{ opacity: 0, scale: 0.8 }}
