@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaDownload, FaEye, FaFileAlt } from "react-icons/fa";
-import FrontendResume from "../assets/Manoj-Frontend-Resume-2025.pdf"
+import FrontendResume from "../assets/manoj-frontend-resume-august-2025.pdf"
 export default function Resume() {
   return (
     <section id="resume" className="py-20 max-w-6xl mx-auto px-6 text-center">
