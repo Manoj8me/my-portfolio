@@ -2,10 +2,10 @@ services:
   - type: web
     name: my-portfolio
     env: static
-    buildCommand: yarn build
+    buildCommand: yarn install && yarn build
     staticPublishPath: dist
     envVars:
       - key: NODE_VERSION
-        value: 18
+        value: 20.19.4
       - key: YARN_VERSION
         value: 1.22.19
